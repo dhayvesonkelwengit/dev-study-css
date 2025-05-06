@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+
+li:first-child{ 
+    color: red;
+}
+
+span:first-of-type{
+    color: blue;
+}
+
+p:first-of-type{
+    color: blueviolet;
+}
+
+li:last-child{
+    color:green
+}
+
+span:last-of-type{
+    color: yellow;
+}
+
+p:last-of-type{
+    color:gray
+}
+    
+*/
+
+
+/*
+.container :not(.excluido){/*pode ser classe, tag, ids...)
+    color:purple
+}
+*/
+
+li:nth-child(1){/*selecionar elemento p/ estilizar*/
+    color: red;
+}
+
+li:nth-last-child(1){
+    color: blue;
+}
+

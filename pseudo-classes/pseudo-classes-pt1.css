@@ -1,0 +1,84 @@
+/*PSEUDO CLASSES
+
+  ... :active-> quando o elemento está sendo pressionado, ou seja, está ativo
+  ... :visited-> Seleciona o link que foi visitado
+  ... :hover> Quando o mouse passsa em cima do elemento
+  ... :checked-> usado em radio/checkbox/select
+  ... :disabled-> Elemento desabilitado/button/input
+  ... :enable-> Elemento está habilitado
+  ... :focus-> É aplicado quando um elemento recebe foco, o que pode ocorrer quando seleciona um elemento
+  ... :read-only-> Seleciona input ou textarea que são apenas leitura
+  ... :empty-> Elemento que não tem filho
+
+  ... :first-child => Primeiro filho/ ex: primeira li de uma ul/ primeiro span de uma div
+  ... :first-of-type =>> O primeiro filho de seu tipo entre os filhos de seu elemento pai
+  ... :last-child =>> Ultimo filho
+  ... :last-of-type =>> Ultimo elemento de seu tipo entre os filhos de seu elemento pai
+  ... :not() =>> Estiliza os elementos, exceto oq está dentro do ()
+  ... :nht-child() =>> Seleciona o elemento baseado na sua posição. EX: :nth-child(3)
+  ... :nth-last-child() =>> Seleciiona o elemento baseado na sua posição, contando de trás pra frente
+  */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/*a:active{
+    color: red;
+
+}*/
+
+/*a:visited {
+    color:green
+
+}*/
+
+/*p:hover{
+    color:aqua
+
+}*/
+
+/*input:checked{
+    width: 50px;
+    height: 50px;
+
+}*/
+
+/*input:disabled{
+    width: 50px;
+    height: 50px;
+
+}*/
+
+/*input:enabled{
+    width: 50px;
+    height:50px;
+
+}*/
+
+/*input:focus{
+   border: 1px red dashed;
+   outline: none; /*por padrão o chrome tem uma borda que sobrepor na hora do focus, por isso, colocamos o seletor (outline:none) paraeliminar essa borda e colocar a que é do nosso prpopio estilo na hora de focar
+
+}*/
+
+/*input{
+    border:1px dashed blue;
+    outline: none;
+}*/
+
+.container{
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: #ffffff;
+}
+
+.container:empty{
+    background: red;
+    color:red;
+}

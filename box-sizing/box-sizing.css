@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    /*border box: fixa o tamanho da caixa estabelecido pelo height e width
+
+    content-box: aumenta a caixa somndo o valor das propiedades*/
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    padding: 20px;
+    border: 10px solid #00f393
+/*dashed: tracejada*/
+/*solid: sólida*/
+}

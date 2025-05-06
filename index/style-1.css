@@ -1,0 +1,16 @@
+ /*(;)obrigatorios*/
+    h1 {
+        color:greenyellow; /*cor*/
+        background: black; /*fundo*/
+    }
+
+    p {
+      color: red;
+      font-size: 25px; /*tamanho da fonte*/
+    }
+
+    button {
+      background: black;
+      color: greenyellow;
+      border-color: greenyellow; /*cor da borda*/
+    }

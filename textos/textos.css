@@ -1,0 +1,46 @@
+/*EDIÇÃO DE TEXTO POR LINK DO GOOGLE DIRETAMENTE NO HEAD*/
+
+h1 {
+    color: red; 
+    font-size: 64px;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    text-shadow: 12px 11px 1px black; 
+    /*sombra: (1°px=direita, 2°px=vertical p/ baixo, 3°px: sombra*/
+}
+
+p {  
+    color: rgb(114, 0, 47); /*cores: em RGB, HEXADECIMAL OU NOME*/
+    font-size: 34px; /*TAMANHOS DA FONTE (normalmente se usa pixel)*/
+    font-weight: bold; /*GROSSURA DA LETRA*: Numero, bold, bolder (negrito com força), ligther (fininho)*/
+    font-family: "Edu AU VIC WA NT Pre", serif; /*Fonte do google*/
+    /*Caso a font principal não funcione, um dos filhos da fonte SERIF, irá substituir */
+    font-style:normal; /*Estilo da fonte*/
+    line-height: 70px; /*Espaçamento entre as linhas*/
+    letter-spacing: 5px /*Espaçamento das letras*/;
+    word-spacing: 40px; /*Espaçamento entre as palavras*/
+    text-align: center; /*Alinhamento do texto*/
+    text-transform: uppercase; 
+    /*uppercase: (M), 
+      lowercase: (m), 
+      capitalize: (1° maiuscula de cada palavra)*/
+    text-decoration:underline green;
+    /*underline: (linha embaixo)
+      overline: (linha acima)
+      line-through: (linha riscada ao meio do texto)
+    */
+    overflow: auto;
+}
+
+/*EDIÇÃO DE TEXTO POR IMPORT DO GOOGLE DIRETAMENTE NO CSS*/
+
+#p2 {
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    font-weight: lighter;
+    color: chocolate;
+}
+
+/**/
+

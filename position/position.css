@@ -1,0 +1,52 @@
+/*VAMOS FALAR DE PSOITION
+
+    position: static (padrão) ---> não aceitas valores de top, bottom, right-e-left.
+
+    position: fixed ---> fixa o elemento na tela
+     
+    postion: sticky --->age como um adesivo, fixa o elemento só onde eu determinar 
+
+    position: relative ---> posição relativa a posição inicial dele 
+
+    position: absolute ---> posição absoluta (fixa) a algum elemento ou a pagina 
+
+     ...se não tiver-pai / pai-for-static-> o filho sendo absolute e fixed se posiciona referente a página 
+
+     ...se o pai não-for-static--> posiciona referente-ao-pai 
+
+     ...se o pai for static e o fiho tambem, o filho so aceitara valores de margin
+        
+    propriedades: 
+        -top    
+        -bottom 
+        -left 
+        -right
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad{
+    background-color: black;
+    width: 350px;
+    height: 350px;
+   
+
+}
+
+.div-son{
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+}
+
+.nanana{
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: calc(100vw - 50vw);
+    height: calc(100vh/2);
+    background: red;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin: calc(20% / 2);
+}
+
+/*Tag calc() totalmente baseado em calculo*/

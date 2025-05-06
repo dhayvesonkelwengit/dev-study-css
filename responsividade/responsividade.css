@@ -1,0 +1,41 @@
+/*RESPONSIVIDADE
+
+...all: Para todos os dispositivos
+...braille: para dispositivos tatéis
+...embossed: para dispositivos que imprimem em braile
+...handheld: para dispositivos portateis, geralmente com telas pequenas e banda limitada
+...print: para impressão em papel
+...projection: para apresentações como pps
+...screen: para monitores com telas coloridas e resolção adequada
+...speech: para sintetizadores de voz. As css 2 tem uma especificação de css chamada aural, onde podemos formatar voz dos sintetizadores
+
+ORIENTAÇÃO
+
+...portrait: a altura maior que a largura (vertical)
+...landscape: a largura maior que a altura (horizontal)
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background: blue;
+}
+
+@media screen and (max-width:600px) and (orientation: landscape) {
+    div{
+        background: RED;
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/*@media-> modificar de acordo com o tipo de tela*/
+
+/*(Ao escolher um tipo) + (and) = obrigatorio'

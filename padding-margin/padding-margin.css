@@ -1,0 +1,46 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    margin: 100px; /*Afastamento p/direita e espaçamento entre*/
+    padding: 20px; /*Crescimento*/
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #7CFC0f;
+    margin: 50px;
+}
+
+.box-3 {
+    width:70px;
+    height: 70px;
+    background: blue;
+  
+    /*Atalhos p/ MARGIN*/
+    margin-top: 0px; /*para cima*/
+    margin-bottom: 0px; /*para baixo*/
+    margin-left: 0px; /*para esquerda*/
+    margin-right: 0px; /*para direita*/
+  
+    /*Atalhos p/ PADDING*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    /*Para não perder tanto tempo com os atalhos de cima escrevendo todo um por um, utilizamos o chamado
+    "ATALHO DO RÉLOGIO"*/
+
+    margin: 50px 5px 10px 400px;
+/*           t    r    b    l                                 */
+    margin: 50px 30px 50px;
+/*           t    rl   b                                  */   
+    margin: 50px 30px;
+/*           tb   rl                                          */
+    margin: 50px;
+/*           tbrl                                             */
+
+/*O MESMO PODE SE UTILIZAR PARA PADDING*/
+}

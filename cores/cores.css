@@ -1,0 +1,34 @@
+
+h1 {
+    color: brown;
+}
+
+/*POR NOME*/
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+/* POR RGB>
+RGB:
+
+RED
+GREEN
+BLUE
+*/
+
+h1 {
+    color: #ff4400
+}
+
+/* POR HEXADECIMAL:
+
+DECIMAL (10): 1, 2, 3, 4, 5, 6, 7, 8, 9
+HEXADECIMAL(16): 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+SITES: w3schools.com
+       color.adobe.com
+       coolors.com
+
+EXTENSÕES: colorzilla
+*/

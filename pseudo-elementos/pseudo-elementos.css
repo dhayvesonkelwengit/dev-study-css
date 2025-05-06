@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid green;
+    color: blue
+}
+
+/*utiliza 2pontuações para selecionar o pseudo elemento como o exemplo abaixo*/
+
+input::placeholder{ /*estilizar o placeholder internamente*/
+    color: palevioletred;
+    
+}
+
+p{
+    color: blue;
+}
+
+p::first-letter{ /*Estilizar a primeira letra do paragrafo*/
+    color: blueviolet;
+}
+
+p::first-line{ /*Estilizar a primeira linha do paragrafo*/
+    color: blueviolet;
+
+}
+
+a::before{ /*Antes do conteudo*/
+    content: "🚀"
+}
+
+a::after{ /*Depois do conteudo*/
+    content:"👨‍💻"
+}
+

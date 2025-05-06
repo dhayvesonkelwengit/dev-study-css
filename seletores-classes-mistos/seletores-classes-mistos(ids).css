@@ -1,0 +1,23 @@
+h1 {
+   color: black;
+   background-color: chocolate; 
+}
+
+.paragrafo { /*As class são classificadas pelo (.)*/
+    color: chocolate;
+}
+
+#botão1 {
+    background: rgb(0, 0, 66);
+    color: chocolate;
+}
+
+#botão2 {
+    background: chocolate;
+    color: rgb(0, 0, 66);
+}
+
+* {
+ background: black;    
+}
+
